@@ -35,8 +35,6 @@ https://matsuand.github.io/docs.docker.jp.onthefly/desktop/
 <br>
 https://sukkiri.jp/technologies/virtualizers/docker/docker-win_install.html
 
----
-
 ## 事前準備
 
 ### ①まず本アプリケーションを「git clone」する
