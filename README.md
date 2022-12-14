@@ -20,7 +20,6 @@
 - 詳しくは以下の社内ドキュメントをご覧いただければと思います。<br>
 https://keepalive.atlassian.net/wiki/spaces/KA/pages/292094138/Docker
 
----
 ## Dockerを利用できるようにセットアップする方法
 
 - dockerを用いた開発を行うためには前提として、Docker forDesktopというアプリケーションをインストールする必要がある<br>
