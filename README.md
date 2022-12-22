@@ -75,9 +75,10 @@ docker build -t nodejs-docker .
 ### nodejs-docker のタグが付いたイメージを利用してコンテナ起動
 ---
 - コンテナ名は、--nameオプションを利用してつけることができる
+- 「--rm」をイメージタグの直前に入力してコンテナ起動させると、コンテナ停止時に自動的にコンテナ削除を行ってくれる。
 - 「-p」でコンテナ起動させるポートを設定する
 ```
-docker run -d --name giken -p 3000:3000 nodejs-docker
+docker run -d --rm --name giken -p 3000:3000 nodejs-docker
 ```
 - http://localhost:3000 にアクセスすると「Hello World」が表示される
 
